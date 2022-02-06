@@ -26,6 +26,7 @@ body,html {
   border-radius: 0.5rem;
   font-size: 1.5rem;
   text-align: center;
+  transition: 0.1s;
 }
 kbd {
   display: block;
@@ -36,4 +37,9 @@ kbd {
   letter-spacing: 0.1rem;
   font-size: 1.2rem;
   text-transform: uppercase;
+}
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ffc600;
 }
