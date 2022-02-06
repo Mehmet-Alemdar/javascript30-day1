@@ -1,0 +1,5 @@
+html {
+  background: url('./image/background.jpg') bottom;
+  background-attachment: fixed;
+  background-size: cover;
+}
